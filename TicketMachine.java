@@ -19,6 +19,7 @@ public class TicketMachine
     private Integer total;
     // The number of tickets printed.
     private Integer ticketNumber;
+    
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -94,5 +95,7 @@ public class TicketMachine
         balance = 0;
         
         return "Ticket price: " + price + " cents. " + "Your total is " + total + ".";
-    }
+    } 
+    
+    
 }
